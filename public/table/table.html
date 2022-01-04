@@ -6,12 +6,25 @@
     <meta charset = "uTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> emily </title>
+    
+    
+    <!-- css내용 -->
+    
+<style type ="test/css">
+	table, th, td {
+		border : 1px solid black;
+		border-collapse: collapse;  
+	}
 
+	th, td {
+	padding: 10px;
+	}
+
+</style>
 </head>
 
 <body>
 
-<table border="1">
 
 <!-- 
 <caption>
@@ -20,43 +33,78 @@
  -->
 <!--  캡션 왼쪽정렬 -->
  
- <figcaption>
+<!--  <figcaption>
 <p>테이블 설명하는 부분 입니다. </p> </figcaption>
-<!--  캡션 가운데정렬 -->
+ 캡션 가운데정렬
+ -->
+	<table border="1">
+	<thead>
+	<tr>
+	<th width="50px"  height="70px">번호</th>
+	<th width="100px">이름</th>    <!-- td는 좌측, th는 가운데정렬,볼드 -->
+	<th width="100px">아이디</th>
+	<th width="200px">이메일</th>
+	<th width="200px">전화번호</th>
+	<th width="100px">별명</th>
+	<th width="200px">주소</th>
+	<th width="100px">사진</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	<tr>
+	<td>1</td>
+	<td>정미림</td>
+	<td>aaaaa</td>
+	<td>mmm@naver.com</td>
+	<td>111-11111</td>
+	<td>낑깡</td>
+	<td>서울시 강서구</td>
+	<td><img src="./mirim.jpg" width="100px"  height="100px">  </td>
+	</tr>
+	</tbody>
 
-<tr>
-<th width="50px"  height="70px">번호</th>
-<th width="100px">이름</th>    <!-- td는 좌측, th는 가운데정렬,볼드 -->
-<th width="100px">아이디</th>
-<th width="300px">이메일</th>
-<th width="300px">전화번호</th>
-</tr>
+<tbody>
+	<tr>
+	<td>2</td>
+	<td>박기동</td>
+	<td>bbbbbb</td>
+	<td>mmmnnn@naver.com</td>
+	<td>222-11111</td>
+	<td>클린맨</td>
+	<td>서울시 강서구</td>
+	<td><img src="./kidong.jpg" width="100px"  height="100px"> </td>
+	</tr>
+	</tbody>
+	
+	<tbody>
+	<tr>
+	<td>3</td>
+	<td>박선우</td>
+	<td>ccccc</td>
+	<td>mmmnnn@naver.com</td>
+	<td>333-11111</td>
+	<td>호떡</td>
+	<td>서울시 강서구</td>
+	<td> <img src="./Seonwoo(2).jpg" width="100px"  height="100px"> </td>
+	</tr>
+	</tbody>
+	
+	<tfoot>
+	<tr>
+	<td>4</td>
+	<td>박또또</td>
+	<td>ffff</td>
+	<td>aasss@naver.com</td>
+	<td>333-22222</td>
+	<td>그저 딸이길</td>
+	<td>엄마 뱃속</td>
+	<td> <img src="./toto.jpg" width="100px"  height="100px"> </td>
+	</tr>
+		</tfoot>
+	
+	</table>
 
-<tr>
-<td>1</td>
-<td>정미림</td>
-<td>asdfadsfa</td>
-<td>mmm@naver.com</td>
-<td>111-11111</td>
-</tr>
-
-<tr>
-<td>2</td>
-<td>박기동</td>
-<td>afdfadf</td>
-<td>mmmnnn@naver.com</td>
-<td>222-11111</td>
-</tr>
-
-<tr>
-<td>3</td>
-<td>박선우</td>
-<td>afdfadf</td>
-<td>mmmnnn@naver.com</td>
-<td>333-11111</td>
-</tr>
-
-</table>
 <br>
 <br>
 </body>
