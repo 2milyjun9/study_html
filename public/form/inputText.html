@@ -3,36 +3,59 @@
 
 
 <head>
-    <meta charset = "uTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> emily </title>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>emily</title>
 
 </head>
 
 <body>
 
-	<form action="" method="post" id="" name="" enctype="multipart/form-data">
-	아이디 : <input type="text" id="id1" name="id1" >
-	<br> 아이디 : <input type="text" id="" name="" size="50">
-	<br> 아이디 : <input type="text" id="" name="" maxlength="20">
-	<br> 아이디 : <input type="text" id="" name="" placeholder="아이디">
-	<br> 아이디 : <input type="text" id="" name="" value="emily"> <!-- 수정할떄 -->
-	<br> 아이디 : <input type="text" id="" name="" size="50" placeholder="" value="emily">
-	<br> 아이디 : <input type="text" id="" name="" size="50"  autofocus="autofocus">
+	<form action="" method="get" id="" name=""
+		enctype="multipart/form-data">
+		아이디 : <input type="text" id="id1" name="id1"> <br> 아이디 :
+		<input type="text" id="" name="" size="50"> <br> 아이디 : <input
+			type="text" id="" name="" maxlength="20"> <br> 아이디 : <input
+			type="text" id="" name="" placeholder="아이디"> <br> 아이디 :
+		<input type="text" id="" name="" value="emily">
+		<!-- 수정할떄 -->
+		<br> 아이디 : <input type="text" id="" name="" size="50"
+			placeholder="" value="emily"> <br> 아이디 : <input
+			type="text" id="" name="" size="50" autofocus="autofocus"> <br>
+		아이디 : <input type="text" id="" name="" size="50" autofocus="autofocus"
+			value="정미림" readonly> <br> 아이디 : <input type="text"
+			id="" name="" size="50" autofocus="autofocus" value="정미림" disabled>
 
+
+		<hr> 
 		
-	<br><input type="button" id="button" name="button" value="제출" onclick="here();"	>
+		<select disabled>
+			<option>1
+			<option>2
+			<option selected>3
+		</select>
+
+		<p>여기부터</p>
+		<input type="hidden" id="" name="hidden" value="yes">
+		<p>여기까지</p>
+		
+<!-- 		안보이게 데이터 넘기는 형식, 자주 쓰임 -->
+
+		<br>
+		<input type="submit" name="submit"> <br>
+		<input type="button" id="button" name="button" value="제출"
+			onclick="here();">
 	</form>
 
-<script type="text/javascript">
-function here() {
-	alert ("id1: " + document.getElementById("id1").value);
-		document.getElementById("form").submit();
-}
-</script>
+	<script type="text/javascript">
+		function here() {
+			alert("hidden: " + document.getElementById("hidden").value);
+			document.getElementById("form").submit();
+		}
+	</script>
 
-
-<br>
-<br>
+file:///C:/factory/ws_sts_4130/study_html/public/form/inputText.html?id1=&hidden=yes&submit=%EC%A0%9C%EC%B6%9C
+	<br>
+	<br>
 </body>
 </html>
